@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+input,
+textarea {
+  border: 1px solid rgb(21, 230, 209);
+  border-radius: 10px;
+  padding: 15px;
+  width: 100%;
+}
+
+button {
+  border: 1px solid rgb(21, 230, 209);
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgb(21, 230, 209);
+  color: white;
+  font-size: 20px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: turquoise;
+  padding: 10px 30px;
+  border-radius: 20px;
+}
+.header .title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.content h1 span,
+.header span {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: rgba(38, 126, 226, 0.76);
+}
+.content h1 {
+  display: flex;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+}
+
+.content .about {
+  display: flex;
+}
+
+.content .about img {
+  width: 500px;
+  height: 500px;
+  border-radius: 250px;
+  border: 15px solid turquoise;
+}
+.content .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+}
+.content .toolbar {
+  display: flex;
+  gap: 20px;
+}
+.content .toolbar a {
+  background-color: turquoise;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  box-shadow: 3px 3px 8px rgb(10, 64, 243);
+}
+.section {
+  width: 60%;
+}
+.section .card {
+  display: flex;
+  align-items: center;
+  border: 1px solid turquoise;
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 50px;
+  gap: 20px;
+}
+.section .card .left {
+  flex: 3;
+}
+.section .card .left {
+  flex: 2;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px dotted grey;
+}

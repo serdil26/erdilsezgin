@@ -1,0 +1,26 @@
+.sez {
+  color: rgb(83, 12, 248);
+}
+.kutu {
+  width: 300px;
+  height: 90px;
+  background-color: aqua;
+  border: 10px solid rgb(83, 12, 248);
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px yellow;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: lime;
+  height: 500px;
+}
+.container div {
+  width: 200px;
+  height: 200px;
+  background-color: tomato;
+  padding: 20px;
+  margin: 20px;
+}
